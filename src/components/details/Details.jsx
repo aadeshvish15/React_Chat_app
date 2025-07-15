@@ -56,7 +56,7 @@ const Details = () => {
           <div className="photos">
             <div className="photoItem">
               <div className="photoDetail">
-                <img src="./sample.jpg" alt="" />
+                <img src="./sample.jpeg" alt="" />
                 <span>Photo_2323nsdi.jpg</span>
               </div>
               <img src="./download.png" alt="" className="downloadImg"/>
@@ -64,7 +64,7 @@ const Details = () => {
 
             <div className="photoItem">
               <div className="photoDetail">
-                <img src="./sample.jpg" alt="" />
+                <img src="./sample.jpeg" alt="" />
                 <span>Photo_2323nsdi.jpg</span>
               </div>
               <img src="./download.png" alt="" className="downloadImg"/>
@@ -72,7 +72,7 @@ const Details = () => {
 
             <div className="photoItem">
               <div className="photoDetail">
-                <img src="./sample.jpg" alt="" />
+                <img src="./sample.jpeg" alt="" />
                 <span>Photo_2323nsdi.jpg</span>
               </div>
               <img src="./download.png" alt="" className="downloadImg"/>
@@ -80,7 +80,7 @@ const Details = () => {
 
             <div className="photoItem">
               <div className="photoDetail">
-                <img src="./sample.jpg" alt="" />
+                <img src="./sample.jpeg" alt="" />
                 <span>Photo_2323nsdi.jpg</span>
               </div>
               <img src="./download.png" alt="" className="downloadImg"/>
