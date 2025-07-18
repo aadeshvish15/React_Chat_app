@@ -110,7 +110,7 @@ const Chat = () => {
     <div className="chat">
       <div className="top">
         <div className="user">
-          <img src={user?.avatar || "./avatar.png"} alt="" />
+          <img src={user?.avatar || "./avatar.webp"} alt="" />
           <div className="texts">
             <span>{user?.username}</span>
             <p>Lorem ipsum dolor sit amet consectetur</p>
@@ -118,9 +118,9 @@ const Chat = () => {
         </div>
 
         <div className="chatIcon">
-          <img src="./phone.png" alt="" />
-          <img src="./video.png" alt="" />
-          <img src="./info.png" alt="" />
+          <img src="./phone.webp" alt="" />
+          <img src="./video.webp" alt="" />
+          <img src="./info.webp" alt="" />
         </div>
       </div>
 
@@ -150,9 +150,9 @@ const Chat = () => {
       <div className="bottom">
 
         <div className="icons">
-          <img src="./camera.png" alt="" />
+          <img src="./camera.webp" alt="" />
           <label htmlFor="file">
-            <img src="./img.png" alt="" />
+            <img src="./img.webp" alt="" />
           </label>
           <input
             type="file"
@@ -161,7 +161,7 @@ const Chat = () => {
             onChange={handleImg}
           />
           <div className="emoji">
-            <img src="./emoji.png" alt="" onClick={() => setOpen(!open)} />
+            <img src="./emoji.webp" alt="" onClick={() => setOpen(!open)} />
             <div className="picker">
               <EmojiPicker open={open} onEmojiClick={handleEmoji} />
             </div>
@@ -177,7 +177,7 @@ const Chat = () => {
         />
 
         <div className="mic">
-          <img src="./mic.png" alt="" />
+          <img src="./mic.webp" alt="" />
         </div>
         <button className="sendBtn" onClick={handleSend} disabled={isCurrentUserBlocked || isReceiverBlocked}>
           Send

@@ -69,11 +69,11 @@ const ChatList = () => {
     <div className="chatList">
       <div className="search">
         <div className="searchBar">
-          <img src="./search.png" alt="" />
+          <img src="./search.webp" alt="" />
           <input type="text" placeholder="Search" className=""onChange={(e)=>{setSearch(e.target.value)}}/>
         </div>
         <img
-          src={addMode ? "./minus.png" : "./plus.png"}
+          src={addMode ? "./minus.webp" : "./plus.webp"}
           alt="" className="add"
           onClick={()=>setAddMode(!addMode)}/>
       </div>
@@ -85,7 +85,7 @@ const ChatList = () => {
           onClick={() => handleSelect(chat)}
           style={{backgroundColor: chat?.isSeen ? "transparent" : "#5183fe"}}
         >
-          <img src={chat.user.blocked.includes(currentUser.id) ? "./avatar.png" : chat.user?.avatar || "./avatar.png"} alt="" />
+          <img src={chat.user.blocked.includes(currentUser.id) ? "./avatar.webp" : chat.user?.avatar || "./avatar.webp"} alt="" />
         <div className="msgs">
           <h2>{chat.user.blocked.includes(currentUser.id) ? "User" : chat.user.username}</h2>
             <p>{chat.lastMessage}</p>

@@ -120,7 +120,7 @@ const Login = () => {
         <form onSubmit={handleRegister}>
           <label htmlFor="file">
             <img
-              src={avatar.url || "./avatar.png"}
+              src={avatar.url || "./avatar.webp"}
               alt=""
               className={avatar.url ? "avatarUploaded" : ""}
             />

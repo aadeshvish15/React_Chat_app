@@ -16,11 +16,11 @@ const UserInfo = () => {
       </div>
       
       <div className="icons">
-        <img src="./edit.png" alt="" />
-        <img src="./video.png" alt="" />
+        <img src="./edit.webp" alt="" />
+        <img src="./video.webp" alt="" />
         <div className="more" style={{ position: "relative" }}>
           <img
-            src="./more.png"
+            src="./more.webp"
             alt=""
             onClick={() => setShowPopover((prev) => !prev)}
           />
